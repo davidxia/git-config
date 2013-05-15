@@ -39,3 +39,7 @@ Thumbs.db
 *.swp
 *.swo
 .ropeproject
+
+# Mac OSX generated files #
+###########################
+xcuserdata
