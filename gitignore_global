@@ -43,3 +43,8 @@ Thumbs.db
 # Mac OSX generated files #
 ###########################
 xcuserdata
+
+# IntelliJ generated files #
+############################
+*.iml
+.idea

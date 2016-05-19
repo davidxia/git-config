@@ -8,6 +8,7 @@
   com = commit
   br = branch
   hist = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
+  ctags = !.git/hooks/ctags
 [branch]
   autosetuprebase = always
 [color]
@@ -23,3 +24,5 @@
   default = tracking
 [web]
   browser = google-chrome
+[init]
+  templatedir = ~/.git_template
