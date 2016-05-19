@@ -1,6 +1,7 @@
 [user]
   name = David Xia
   email = david@davidxia.com
+  signingkey = DC90312C
 [alias]
   st = status
   co = checkout
@@ -13,6 +14,7 @@
   ui = true
 [commit]
   template = ~/.git-config/message_template
+  gpgsign = true
 [core]
   editor = vim
   excludesfile = ~/.git-config/gitignore_global
