@@ -25,4 +25,4 @@
 [web]
   browser = google-chrome
 [init]
-  templatedir = ~/.git_template
+  templatedir = ~/.git-config/templates
