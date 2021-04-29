@@ -27,7 +27,7 @@
   browser = google-chrome
 [init]
   defaultBranch = master
-  templatedir = ~/.git_template
+  templatedir = ~/.git-config/templates
 [hub]
   host = github.com
 [gpg]
