@@ -20,9 +20,21 @@
   editor = vim
   excludesfile = ~/.git-config/gitignore_global
   pager = less
+  commentChar = ";"
 [push]
   default = tracking
 [web]
   browser = google-chrome
 [init]
+  defaultBranch = master
   templatedir = ~/.git_template
+[hub]
+  host = github.com
+[gpg]
+	program = /usr/local/bin/gpg
+[url "git@github.com:"]
+	insteadOf = https://github.com/
+[fetch]
+	prune = true
+[rerere]
+	enabled = true

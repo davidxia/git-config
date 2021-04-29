@@ -48,3 +48,4 @@ xcuserdata
 ############################
 *.iml
 .idea
+.editorconfig
