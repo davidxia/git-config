@@ -10,7 +10,7 @@ ignores compiled source files, packages, logs, databases, and OS and Vim-generat
 # Installation
 
     git clone https://github.com/davidxia/git-config.git ~/.git-config
-    ln -s ~/.git-config/gitconfig ~/.gitconfig
-    ln -s ~/.git-config/gitignore_global ~/.gitignore_global
+    ln -fs ~/.git-config/gitconfig ~/.gitconfig
+    ln -fs ~/.git-config/gitignore_global ~/.gitignore_global
 
 If you are not David Xia, make sure to change the name and email address in `gitconfig`.
